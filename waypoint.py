@@ -27,7 +27,7 @@ def reward_function(params):
     else:
         reward -= 10
     if params["closest_waypoints"][1] in fast:
-        if params["speed"] == 2 :
+        if params["speed"] == 4 :
             reward += 10
         else:
             reward -= 10
