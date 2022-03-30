@@ -87,3 +87,4 @@ def reward_function(params):
     elif (steps % 50) == 0 and progress < (steps / benchmark_steps) * 100 :
         reward-=5.0
     return reward
+# Action space (Speed: [ 1.1 : 3.7 ] m/s, Steering angle: [ -30 : 30 ] °) 10hr
